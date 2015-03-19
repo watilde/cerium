@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "a cli for chrome extension",
   "main": "lib/main.js",
+  "bin": "bin/cem.js",
   "scripts": {
     "lint": "eslint ./lib/modules/*.js & eslint ./lib/*.js",
     "test": "npm run lint"
