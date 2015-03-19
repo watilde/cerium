@@ -1,0 +1,30 @@
+{
+  "name": "cem",
+  "version": "0.0.1",
+  "description": "a cli for chrome extension",
+  "main": "lib/main.js",
+  "scripts": {
+    "lint": "eslint ./lib/modules/*.js & eslint ./lib/*.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watilde/cem.git"
+  },
+  "keywords": [
+    "Chrome"
+  ],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watilde/cem/issues"
+  },
+  "homepage": "https://github.com/watilde/cem",
+  "devDependencies": {
+    "eslint": "^0.17.1"
+  },
+  "dependencies": {
+    "inquirer": "^0.8.0",
+    "semver": "^4.3.1"
+  }
+}
