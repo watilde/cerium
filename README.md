@@ -1,10 +1,12 @@
-# cem - a cli for chrome extension
+# cerium - a cli for chrome extension
 
-[![Build Status](https://api.travis-ci.org/watilde/cem.svg)](https://travis-ci.org/watilde/cem)
+[![Build Status](https://api.travis-ci.org/watilde/cerium.svg)](https://travis-ci.org/watilde/cerium)
 
 ## Usage
 ```
-Usage: cem <command>
+Usage: cerium <command>
+
+Alias: ce <command>
 
 Commands:
 help    Output help information
@@ -12,8 +14,8 @@ init    Interactively create a manifest.json file
 ```
 
 ## WIP features
-+ cem version [major || minor || patch]
-+ cem build (and open `chrome://extensions/`)
-+ cem link (to local Chrome)
-+ cem publish (to Chrome web store || npm)
-+ cem unpublish (to Chrome web store || npm)
++ ce version [major || minor || patch]
++ ce build (and open `chrome://extensions/`)
++ ce link (to local Chrome)
++ ce publish (to Chrome web store || npm)
++ ce unpublish (to Chrome web store || npm)

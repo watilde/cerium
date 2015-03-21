@@ -1,16 +1,19 @@
 {
-  "name": "cem",
+  "name": "cerium",
   "version": "0.0.1",
   "description": "a cli for chrome extension",
   "main": "lib/main.js",
-  "bin": "bin/cem.js",
+  "bin": {
+    "cerium": "bin/cerium.js",
+    "ce": "bin/cerium.js"
+  },
   "scripts": {
     "lint": "eslint ./lib/modules/*.js & eslint ./lib/*.js",
     "test": "npm run lint"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/watilde/cem.git"
+    "url": "https://github.com/watilde/cerium.git"
   },
   "keywords": [
     "Chrome"
@@ -18,9 +21,9 @@
   "author": "Daijiro Wachi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watilde/cem/issues"
+    "url": "https://github.com/watilde/cerium/issues"
   },
-  "homepage": "https://github.com/watilde/cem",
+  "homepage": "https://github.com/watilde/cerium",
   "devDependencies": {
     "eslint": "^0.17.1"
   },
