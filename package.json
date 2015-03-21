@@ -1,6 +1,6 @@
 {
   "name": "cerium",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a cli for chrome extension",
   "main": "lib/main.js",
   "bin": {
